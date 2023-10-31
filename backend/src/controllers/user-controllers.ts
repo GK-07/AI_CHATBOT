@@ -73,7 +73,6 @@ export const userLogin = async (
 ) => {
   try {
     const { email, password } = req.body;
-    const hashedPassword = await hash(password, 10);
 
     const user = await User.findOne({ email });
     if (!user) {

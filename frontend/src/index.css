@@ -22,3 +22,16 @@ body {
   text-decoration: none;
   letter-spacing: 1px;
 }
+.robot-shadow {
+  filter: drop-shadow(0px 0px 20px #00fffc);
+  animation: shadowMovement 3s infinite alternate;
+}
+
+@keyframes shadowMovement {
+  0% {
+    filter: drop-shadow(0px 0px 5px #00fffc);
+  }
+  100% {
+    filter: drop-shadow(0px 0px 30px #00fffc);
+  }
+}

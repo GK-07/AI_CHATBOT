@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <AppBar
       position="static"
-      sx={{ bgcolor: "transparent", boxShadow: "none" }}
+      sx={{ bgcolor: "transparent", boxShadow: "none", pt: 2 }}
     >
       <Toolbar sx={{ display: "flex" }}>
         <Logo />
